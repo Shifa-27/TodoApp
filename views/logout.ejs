@@ -1,0 +1,13 @@
+<!-- views/logout.ejs -->
+
+<%- include("./partials/header") %>
+
+<div class="container mt-5">
+    <h2>Logout</h2>
+    <p>Are you sure you want to logout?</p>
+    <form action="/logout" method="POST">
+        <button type="submit" class="btn btn-primary">Logout</button>
+    </form>
+</div>
+
+<%- include("./partials/footer") %>
